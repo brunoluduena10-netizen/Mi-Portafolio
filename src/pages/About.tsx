@@ -17,7 +17,7 @@ function About() {
 
         <div>
           <h1>Hola, soy Bruno</h1>
-          <h2>Desarrollador frontend en formación test</h2>
+          <h2>Desarrollador frontend en formación</h2>
 
           <p>
             Estoy aprendiendo desarrollo y trabajando
