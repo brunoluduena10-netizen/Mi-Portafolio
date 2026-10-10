@@ -20,7 +20,7 @@ function About() {
           <h2>Desarrollador frontend en formación</h2>
 
           <p>
-            Estoy aprendiendo desarrollo web y trabajando
+            Estoy aprendiendo desarrollo y trabajando
             en mis primeros proyectos con React, TypeScript
             y SCSS. Me interesa seguir creciendo, aprender
             buenas prácticas y formar parte de un equipo

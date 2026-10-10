@@ -5,7 +5,7 @@ function Home() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <p className="eyebrow">DESARROLLO FRONTEND</p>
+        <p className="eyebrow">DESARROLLO FRONTEND in dev testing pr</p>
 
         <h1>
           Ludueña Bruno 
