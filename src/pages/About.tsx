@@ -1,4 +1,4 @@
-import yo from "../assets/images/yo.jpg";
+import messi from "../assets/images/messi.jpg";
 
 function About() {
   return (
@@ -9,15 +9,15 @@ function About() {
         <div className="profile-photo">
          
           <img
-                src={yo}
-                alt="Mi foto de perfil"
-                className="fotoPerfil"
-/>
+  src={messi}
+  alt="Mi foto de perfil"
+  className="foto-perfil"
+/>   
         </div>
 
         <div>
           <h1>Hola, soy Bruno</h1>
-          <h2>Desarrolladora frontend en formación</h2>
+          <h2>Desarrollador frontend en formación</h2>
 
           <p>
             Estoy aprendiendo desarrollo web y trabajando
@@ -42,10 +42,9 @@ function About() {
         <article className="info-card">
           <h3>Mis habilidades</h3>
           <ul>
-            <li>HTML y CSS</li>
             <li>JavaScript y TypeScript en aprendizaje</li>
-            <li>React</li>
-            <li>SCSS</li>
+            <li>React en aprendizaje</li>
+            <li>SCSS en aprendizaje</li>
             <li>Git y GitHub en aprendizaje</li>
           </ul>
         </article>
@@ -53,11 +52,10 @@ function About() {
         <article className="info-card">
           <h3>Formación</h3>
           <p>
-            [Nombre de tu carrera o curso]
+            primario y secundario completo
+            Estudiante de Ingenieria en Sistemas de 3er año en la UTN frc
           </p>
-          <p>
-            [Institución y año, si corresponde]
-          </p>
+         
         </article>
 
         <article className="info-card">

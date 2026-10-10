@@ -628,14 +628,14 @@ a:focus-visible {
   }
 }
 
-img.foto-perfil {
+.foto-perfil {
+  display: block;
   width: 180px !important;
   height: 180px !important;
   max-width: 180px !important;
+  max-height: 180px !important;
   object-fit: cover;
   border-radius: 50%;
-  display: block;
-  margin: 20px auto;
 }
 
 }

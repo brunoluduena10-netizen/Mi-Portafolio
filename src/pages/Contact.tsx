@@ -4,11 +4,11 @@ function Contact() {
     <section className="contact-page">
       <p className="eyebrow">CONTACTO</p>
 
-      <h1>¿Hablamos?</h1>
+      <h1>hablemos y formemos un gran equipo</h1>
 
       <p className="section-intro">
         Estoy buscando mi primera oportunidad en desarrollo
-        frontend y abierta a conocer nuevos proyectos,
+        frontend y abierto a conocer nuevos proyectos,
         equipos y oportunidades de aprendizaje.
       </p>
 
@@ -18,14 +18,14 @@ function Contact() {
         <p>
           <strong>Email:</strong>{" "}
           <a href="mailto:tu-correo@ejemplo.com">
-            tu-correo@ejemplo.com
+            luduenabruno10@gmail.com
           </a>
         </p>
 
         <p>
           <strong>GitHub:</strong>{" "}
           <a
-            href="https://github.com/tu-usuario"
+            href="https://github.com/brunoluduena10-netizen"
             target="_blank"
             rel="noreferrer"
           >
@@ -36,7 +36,7 @@ function Contact() {
         <p>
           <strong>LinkedIn:</strong>{" "}
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/feed/"
             target="_blank"
             rel="noreferrer"
           >
