@@ -34,6 +34,18 @@ button,
 a {
   -webkit-tap-highlight-color: transparent;
 }
+.mi-foto-de-perfil{
+  width: 280px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.presentacion{
+  float: right;
+  text-align: center;
+}
 
 .portfolio {
   min-height: 100vh;
@@ -108,7 +120,7 @@ a {
 
 .eyebrow {
   color: $purple-light;
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -626,16 +638,6 @@ a:focus-visible {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
   }
-}
-
-.foto-perfil {
-  display: block;
-  width: 180px !important;
-  height: 180px !important;
-  max-width: 180px !important;
-  max-height: 180px !important;
-  object-fit: cover;
-  border-radius: 50%;
 }
 
 }

@@ -5,16 +5,17 @@ function Home() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <p className="eyebrow">DESARROLLO FRONTEND in dev testing pr</p>
+        <p className="eyebrow">DESARROLLO FRONTEND · PORTAFOLIO</p>
 
         <h1>
-          Ludueña Bruno 
-          <span> portafolio</span>
+          Hola soy Bruno Ludueña
+          <span> Desarrollador en formacion</span>
         </h1>
 
         <p className="hero-description">
-          Soy un desarrollador en formación interesado
-          en crear páginas web modernas, accesibles y
+          Estoy estudiando ingenieria en sistemas y aprendiendo 
+          a crear aplicaciones web modernas. Interesado
+          en crear páginas accesibles interactivas y
           fáciles de usar con react, typeScript y scss.
         </p>
 
@@ -30,6 +31,7 @@ function Home() {
 
         <div className="tech-list">
           <span>React</span>
+          <span>HTML</span>
           <span>TypeScript</span>
           <span>SCSS</span>
         </div>

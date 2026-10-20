@@ -14,7 +14,7 @@ function App() {
         </NavLink>
 
         <nav>
-          <NavLink to="/" end>Inicio</NavLink>
+          <NavLink to="/" end>inicio</NavLink>
           <NavLink to="/sobre-mi">Sobre mí</NavLink>
           <NavLink to="/proyectos">Proyectos</NavLink>
           <NavLink to="/contacto">Contacto</NavLink>
