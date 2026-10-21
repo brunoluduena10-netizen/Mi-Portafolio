@@ -3,25 +3,26 @@ const projects = [
   {
     title: "Mi portafolio",
     description:
-      "Mi primera web personal, creada para presentar mi perfil y mi aprendizaje.",
-    technologies: "React · TypeScript · SCSS",
+      "Mi primera web personal, creada para presentar mi perfil y mi aprendizaje. Esta es mi primera página desarrollada por mí que muestra mis conocimientos actuales, tecnologías conocidas, forma de trabajo, diseño e intereses. ",
+    technologies: "React · HTML · TypeScript · SCSS",
+    status: "Finalizado",
+  },
+  {
+    title: "Página web para un gimnasio",
+    description:
+      "Una página frontend para un gimnasio, con información de planes, horarios y contacto.",
+    technologies: "React · HTML · TypeScript · SCSS",
     status: "En desarrollo",
   },
   {
-    title: "Lista de tareas",
+    title: "Página web para un restaurante",
     description:
-      "Una aplicación para crear tareas, marcarlas como completadas y eliminarlas.",
-    technologies: "React · TypeScript · SCSS",
-    status: "Próximo proyecto",
-  },
-  {
-    title: "Control de gastos",
-    description:
-      "Una aplicación para registrar gastos, clasificarlos y consultar totales.",
+      "Una página frontend para un restaurante, con menú, galería y reservas.",
     technologies: "React · TypeScript · SCSS",
     status: "Planificado",
   },
 ];
+
 
 function Projects() {
   return (
@@ -36,15 +37,14 @@ function Projects() {
       <div className="projects-grid">
         {projects.map((project) => (
           <article className="project-card" key={project.title}>
-            <div className="project-icon">{"< />"}</div>
-            <span className="project-status">
-              {project.status}
-            </span>
             <h2>{project.title}</h2>
             <p>{project.description}</p>
             <p className="project-tech">
               {project.technologies}
             </p>
+            <span className="project-status">
+              {project.status}
+            </span>
           </article>
         ))}
       </div>
