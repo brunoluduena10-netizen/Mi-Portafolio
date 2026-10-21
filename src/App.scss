@@ -34,18 +34,6 @@ button,
 a {
   -webkit-tap-highlight-color: transparent;
 }
-.profile-photo {
-  width: 280px;
-  height: 350px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.profile-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 .skills-list {
   list-style: none;
@@ -424,7 +412,7 @@ footer {
     flex-direction: column;
     gap: 8px;
   }
-  
+}
 body {
   color: #f8f7fc;
   line-height: 1.6;
@@ -560,11 +548,12 @@ a:focus-visible {
 }
 
 .info-card h3{
-  border-bottom: 1px solid #e5e7eb; // o $border si tenés variable
-  padding-bottom: 0.8rem;           // espacio entre el título y la línea
-  margin-bottom: 1rem;              // espacio entre la línea y el contenido
+  color: #ddd6fe;
+  border-bottom: 1px solid $border;
+  padding-bottom: 0.8rem;           
+  margin-bottom: 1rem;      
 }
-}
+
 
 .contact-card h2 {
   color: #ddd6fe;
@@ -585,7 +574,6 @@ a:focus-visible {
   transition:
     transform 0.2s,
     border-color 0.2s;
-    border-bottom: 1px solid $border
 }
 
 .project-card:hover {

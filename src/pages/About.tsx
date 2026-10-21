@@ -18,7 +18,6 @@ function About() {
           <img
             src={yo5}
             alt="foto de Bruno Ludueña"
-            className="mi-foto-de-perfil"
           />   
         </div>
 
