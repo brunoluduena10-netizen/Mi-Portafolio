@@ -9,11 +9,11 @@ function Home() {
 
         <h1>
           Hola soy Bruno Ludueña
-          <span> Desarrollador en formacion</span>
+          <span> Desarrollador en formación</span>
         </h1>
 
         <p className="hero-description">
-          Estoy estudiando ingenieria en sistemas y aprendiendo 
+          Estoy estudiando ingeniería en sistemas y aprendiendo 
           a crear aplicaciones web modernas. Interesado
           en crear páginas accesibles interactivas y
           fáciles de usar con react, typeScript y scss.

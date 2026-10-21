@@ -34,17 +34,34 @@ button,
 a {
   -webkit-tap-highlight-color: transparent;
 }
-.mi-foto-de-perfil{
+.profile-photo {
   width: 280px;
   height: 350px;
-  object-fit: cover;
+  overflow: hidden;
   border-radius: 50%;
-  display: block;
-  margin: 0 auto;
 }
-.presentacion{
-  float: right;
-  text-align: center;
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.progress-bar {
+  height: 8px;
+  background: $border;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: $purple;
 }
 
 .portfolio {
@@ -528,10 +545,10 @@ a:focus-visible {
 
 .about-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
-  margin-bottom: 35px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem; // separa las tarjetas entre sí, en ambas direcciones
 }
+
 
 .info-card,
 .project-card,
@@ -542,7 +559,13 @@ a:focus-visible {
   background: #171321;
 }
 
-.info-card h3,
+.info-card h3{
+  border-bottom: 1px solid #e5e7eb; // o $border si tenés variable
+  padding-bottom: 0.8rem;           // espacio entre el título y la línea
+  margin-bottom: 1rem;              // espacio entre la línea y el contenido
+}
+}
+
 .contact-card h2 {
   color: #ddd6fe;
 }
@@ -562,6 +585,7 @@ a:focus-visible {
   transition:
     transform 0.2s,
     border-color 0.2s;
+    border-bottom: 1px solid $border
 }
 
 .project-card:hover {
@@ -621,10 +645,6 @@ a:focus-visible {
     grid-template-columns: 1fr;
   }
 
-  .profile-photo {
-    width: 180px;
-    height: 210px;
-  }
 
   .page-container {
     padding-top: 30px;
@@ -640,4 +660,3 @@ a:focus-visible {
   }
 }
 
-}

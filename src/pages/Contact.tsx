@@ -17,8 +17,8 @@ function Contact() {
 
         <p>
           <strong>Email:</strong>{" "}
-          <a href="mailto:tu-correo@ejemplo.com">
-            luduenabruno10@gmail.com
+          <a href="mailto:brunoluduena10@gmail.com">
+            brunoluduena10@gmail.com
           </a>
         </p>
 

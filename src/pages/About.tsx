@@ -1,6 +1,13 @@
 import yo5 from "../assets/images/yo5.jpeg";
 
 function About() {
+  const skills = [
+    { name: "JavaScript / TypeScript", level: 55 },
+    { name: "React", level: 45 },
+    { name: "SCSS", level: 40 },
+    { name: "Git / GitHub", level: 50 },
+    { name: "SQL Server", level: 45 },
+  ];
   return (
     <section className="about-page">
       <p className="eyebrow">SOBRE MÍ</p>
@@ -10,12 +17,12 @@ function About() {
          
           <img
             src={yo5}
-            alt="Mi-foto-de-perfil"
+            alt="foto de Bruno Ludueña"
             className="mi-foto-de-perfil"
           />   
         </div>
 
-        <div className="presentacion">
+        <div>
           <h1>Bruno Daniel Ludueña</h1>
           <h2>Desarrollador frontend en formación</h2>
 
@@ -34,68 +41,43 @@ function About() {
            <h3>🎯 Mi objetivo</h3>
           <p>
             Conseguir mi primera oportunidad laboral en desarrollo
-            frontend <br />
-             y aplicar lo que aprendo en proyectos reales.
+            frontend y aplicar lo que aprendo en proyectos reales.
           </p>
         </article>
-        <hr />
+        
         <article className="info-card">
           <h3>🛠️ Mis habilidades</h3>
           <ul className="skills-list">
-            <li>
-              <span>JavaScript / TypeScript</span>
-              <div className="progress-bar">
-                <div className="progress-fill" style={{ width: "55%" }}></div>
-              </div>
-            </li>
-            <li>
-              <span>React</span>
-              <div className="progress-bar">
-                <div className="progress-fill" style={{ width: "45%" }}></div>
-              </div>
-            </li>
-            <li>
-              <span>SCSS</span>
-              <div className="progress-bar">
-                <div className="progress-fill" style={{ width: "40%" }}></div>
-              </div>
-            </li>
-            <li>
-              <span>Git / GitHub</span>
-              <div className="progress-bar">
-                <div className="progress-fill" style={{ width: "50%" }}></div>
-              </div>
-            </li>
-            <li>
-              <span>SQL server</span>
-              <div className="progress-bar">
-                <div className="progress-fill" style={{ width: "45%" }}></div>
-              </div>
-            </li>
+            {skills.map((skill) => (
+              <li key={skill.name}>
+                <span>{skill.name}</span>
+                <div className="progress-bar">
+                  <div className="progress-fill" style={{ width: `${skill.level}%` }}></div>
+                </div>
+              </li>
+            ))}
           </ul>
         </article>
-        <hr />
+
         <article className="info-card">
-           <h3>🎓 Formación</h3>
+          <h3>🎓 Formación</h3>
           <p>Primario y secundario completos</p>
           <p>
             Ingeniería en Sistemas · 3er año
-            <br />
             UTN FRC
           </p>
-         
         </article>
-        <hr />
+
         <article className="info-card">
           <h3>🚀 Actualmente</h3>
           <p>
             Estoy construyendo mi portafolio y desarrollando
-            aplicaciones <br />
-             para practicar programación,
+            aplicaciones
+            para practicar programación,
             diseño responsive y organización del código.
           </p>
         </article>
-        <hr />
+
       </div>
 
       <a
